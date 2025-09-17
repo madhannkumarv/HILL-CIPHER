@@ -75,7 +75,7 @@ void hill(char *in, char *out, int enc)
   out[len] = 0;
 }
 int main() {
-  char msg[] = "PIRITHARAMAN", enc[100], dec[100];
+  char msg[] = "MADHANNKUMAR", enc[100], dec[100];
   hill(msg, enc, 1); printf("Encrypted: %s\n", enc);
   hill(enc, dec, 0); printf("Decrypted: %s\n", dec);
 }
